@@ -1,0 +1,26 @@
+{
+  "name": "blood-bank",
+  "version": "1.0.0",
+  "description": "blood bank management system",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "author": "jishnu",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "alert": "^5.0.6",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "popups": "^1.1.3"
+  }
+}
